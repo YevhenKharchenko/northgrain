@@ -1,5 +1,5 @@
 .footer {
-  background: linear-gradient(0deg, #eac274 0%, #ea9e31 100%);
+  background: #ffc83d;
   padding-top: 34px;
   padding-bottom: 34px;
 
@@ -37,14 +37,13 @@
 .footer-link {
   display: flex;
   align-items: center;
-  font-family: 'Cinzel', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 20px;
   background: radial-gradient(
     50% 50% at 50% 50%,
-    rgb(154, 68, 207) 0%,
-    rgb(48, 41, 83) 100%
+    rgb(16, 75, 131) 0%,
+    rgb(8, 15, 32) 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -60,14 +59,14 @@
 }
 
 .footer-text {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
   background: radial-gradient(
     50% 50% at 50% 50%,
-    rgb(154, 68, 207) 0%,
-    rgb(48, 41, 83) 100%
+    rgb(16, 75, 131) 0%,
+    rgb(8, 15, 32) 100%
   );
   background-clip: text;
   -webkit-background-clip: text;

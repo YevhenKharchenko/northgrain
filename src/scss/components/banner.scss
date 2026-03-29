@@ -1,5 +1,5 @@
 .cookie-banner-section {
-  background: linear-gradient(0deg, #eac274 0%, #ea9e31 100%);
+  background: #ffc83d;
   padding: 38px 16px 74px;
   width: 100%;
   max-width: 375px;
@@ -27,15 +27,15 @@
 }
 
 .cookie-banner-text {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   background: radial-gradient(
     50% 50% at 50% 50%,
-    rgb(154, 68, 207) 0%,
-    rgb(48, 41, 83) 100%
+    rgb(16, 75, 131) 0%,
+    rgb(8, 15, 32) 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -66,10 +66,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(50% 50% at 50% 50%, #9a44cf 0%, #302953 100%);
+  background: radial-gradient(50% 50% at 50% 50%, #104b83 0%, #080f20 100%);
   border-radius: 40px;
   padding: 24px 32px;
-
   width: 100%;
   max-width: 295px;
   transition: background 0.3s ease-in-out;
@@ -84,14 +83,10 @@
 }
 
 .cookie-accept-btn-span {
-  font-family: 'Cinzel', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 1.5;
-  background: linear-gradient(0deg, #eac274 0%, #ea9e31 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  color: #ffc83d;
 
   @include media(desktop) {
   }
@@ -101,17 +96,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #302953;
+  border: 1px solid #080f20;
   border-radius: 40px;
   padding: 23px 31px;
-  font-family: 'Cinzel', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 20px;
   background: radial-gradient(
     50% 50% at 50% 50%,
-    rgb(154, 68, 207) 0%,
-    rgb(48, 41, 83) 100%
+    rgb(16, 75, 131) 0%,
+    rgb(8, 15, 32) 100%
   );
   background-clip: text;
   -webkit-background-clip: text;

@@ -1,5 +1,5 @@
 .header {
-  background: #302953;
+  background: #080f20;
   position: fixed;
   width: 100%;
   top: 0;
@@ -19,7 +19,7 @@
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../img/hero/hero-bg-mob.jpg);
+  background-image: url(../img/hero/hero-bg-mob.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -46,6 +46,9 @@
   justify-content: end;
 
   @include media(desktop) {
+    border: 1px solid #ffc83d;
+    border-radius: 20px;
+    padding: 11px 15px;
     justify-content: start;
   }
 }
@@ -62,11 +65,11 @@
 }
 
 .nav-list-link {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #f5efe6;
+  color: #f8f9ff;
   display: flex;
   justify-content: center;
   align-items: center;
