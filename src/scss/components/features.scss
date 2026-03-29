@@ -1,0 +1,83 @@
+.features-section {
+  @include media(desktop) {
+  }
+}
+
+.features-bg-wrapper {
+  padding-top: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+
+  @include media(desktop) {
+    padding-top: 73px;
+    max-width: 1440px;
+  }
+}
+
+.features-container {
+  @include media(desktop) {
+  }
+}
+
+.features-title {
+  @include media(desktop) {
+  }
+}
+
+.features-swiper-container {
+  max-width: 197px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.features-swiper-container.show {
+  visibility: visible;
+}
+
+.features-swiper-wrapper {
+  @include media(desktop) {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+  }
+}
+
+.features-slide {
+  background: #9654ce;
+  border-radius: 12px;
+  padding: 16px 16px 12px;
+  width: 100%;
+  max-width: 197px;
+  min-height: 241px;
+
+  @include media(desktop) {
+  }
+}
+
+.features-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 14px;
+
+  @include media(desktop) {
+  }
+}
+
+.features-item-text {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #f5f2eb;
+
+  @include media(desktop) {
+  }
+}
