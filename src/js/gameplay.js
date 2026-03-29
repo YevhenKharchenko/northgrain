@@ -1,9 +1,9 @@
 import Swiper from 'swiper';
 import 'swiper/css/bundle';
 
-let featuresSwiper;
+let gameplaySwiper;
 
-featuresSwiper = new Swiper('.features-swiper-container', {
+gameplaySwiper = new Swiper('.gameplay-swiper-container', {
   direction: 'horizontal',
   loop: false,
   centeredSlides: true,
@@ -16,18 +16,17 @@ featuresSwiper = new Swiper('.features-swiper-container', {
   grabCursor: true,
   breakpoints: {
     1440: {
-      slidesPerView: 6,
+      slidesPerView: 4,
       centeredSlides: false,
       allowTouchMove: false,
       grabCursor: false,
       spaceBetween: 0,
     },
   },
-
   on: {
     init(swiper) {
       document
-        .querySelector('.features-swiper-container')
+        .querySelector('.gameplay-swiper-container')
         .classList.add('show');
     },
   },
